@@ -1,7 +1,8 @@
 require('dotenv').config();
 const express = require('express');
 const helmet = require('helmet');
-const db = require('../data/db');
+
+const db = require('../data/db.js');
 
 
 const server = express();
